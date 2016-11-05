@@ -14,6 +14,7 @@ alias p="cd ~/Code"
 # Git related
 alias g="git"
 alias gst="git status"
+alias gsst="git status --short --branch"
 alias ga="git add"
 alias gaa="git add --all ."
 alias gd="git diff"
