@@ -9,7 +9,8 @@ alias lsa="ls -GAlF"
 
 
 # Shortcuts
-alias p="cd ~/Code"
+alias p="cd ~/Development"
+alias ih="cd ~/Development/ideahunt"
 
 # Git related
 alias g="git"
@@ -18,6 +19,10 @@ alias gsst="git status --short --branch"
 alias ga="git add"
 alias gaa="git add --all ."
 alias gd="git diff"
+# Git status in all subfolders
+#https://coderwall.com/p/grmruq/git-status-on-all-repos-in-folder
+alias gsts="find . -maxdepth 1 -mindepth 1 -type d -exec sh -c '(echo {} && cd {} && git status -s && echo)' \;"
+
 
 # Get week number
 alias week='date +%V'
