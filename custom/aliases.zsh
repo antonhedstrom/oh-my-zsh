@@ -11,6 +11,7 @@ alias lsa="ls -GAlF"
 # Shortcuts
 alias p="cd ~/Development"
 alias ih="cd ~/Development/ideahunt"
+alias hue="cd ~/Development/experimental/AmbilightHue"
 
 # Git related
 alias g="git"
@@ -36,3 +37,7 @@ alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date
 # Packages
 alias tr2="tree -L 2"
 alias tr3="tree -L 3"
+
+
+# Visual Studio
+alias vs="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
