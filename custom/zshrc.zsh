@@ -61,7 +61,7 @@ plugins=(git)
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
 else
-  export EDITOR='subl'
+  export EDITOR='code'
 fi
 
 # Compilation flags
